@@ -21,16 +21,16 @@ qemu-system-x86_64 image/boot.bin
 *Note: No compilation required :)*
 
 ## Boot it on a real machine
-To run it on real hardware there are two methods.
+To run it on real hardware there are two methods to flash raosxd:
 ### Method 1 (Terminal):
-Flash the binary to a USB stick by using dd:
+  Flash the binary to a USB stick by using dd:
 
-- Linux: 
-```
-sudo dd if=image/boot.bin of=/dev/[your usb] bs=512 status=progress
-```
+  - Linux: 
+  ```
+  sudo dd if=image/boot.bin of=/dev/[your usb] bs=512 status=progress
+  ```
 
-**Important: Be sure you entered the right name of the usb you want the system to be on before executing this command. If you choose the wrong device your data could be damaged or wiped completely. I take no responsibility for loss of data, do it at your own risk. If you don't know what you are doing, I recommend using the qemu boot instead.**
+  **Important: Be sure you entered the right name of the usb you want the system to be on before executing this command. If you choose the wrong device your data could  be damaged or wiped completely. I take no responsibility for loss of data, do it at your own risk. If you don't know what you are doing, I recommend using the qemu    boot instead.**
 
 ### Method 2 (GUI):
 Flash the latest ISO image from the releases tab to a USB stick by using programs like [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/).
