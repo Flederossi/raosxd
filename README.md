@@ -1,6 +1,5 @@
 # raosxd
 A tiny bootloader that prints the first three lines of the "Never gonna give you up" refrain.
-
 It is written completely in the hex editor, using the full 512 bytes dedicated to him.
 
 *Note: There is nothing more it can do.*
