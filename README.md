@@ -4,7 +4,7 @@ It is written completely in the hex editor, using the full 512 bytes dedicated t
 
 *Note: There is nothing more it can do.*
 
-![Alt Text](https://github.com/Flederossi/chip-x/blob/main/img/logo.png)
+![Alt Text](https://github.com/Flederossi/raosxd/blob/main/assets/screenshot.png)
 
 ## Boot it using QEMU
 First install https://www.qemu.org on your system, then run in the root folder:
