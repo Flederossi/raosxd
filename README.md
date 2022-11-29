@@ -10,3 +10,6 @@ First install https://www.qemu.org on your system, then run in the root folder:
 `qemu-system-x86_64 image/boot.bin`
 
 *Note: No compilation required :)*
+
+## Source
+If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx to view the source code. ^^
