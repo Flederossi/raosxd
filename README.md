@@ -5,4 +5,4 @@ It is written completely in the hex editor, using the full 512 bytes dedicated t
 ## Boot it using QEMU
 First install https://www.qemu.org on your system, then run in the root folder:
 
-```qemu-system-x86_64 image/boot.bin```
+`qemu-system-x86_64 image/boot.bin`
