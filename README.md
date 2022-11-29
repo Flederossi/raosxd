@@ -9,8 +9,14 @@ It is written completely in the hex editor, using the full 512 bytes dedicated t
 ## Boot it using QEMU
 First install [QEMU](https://www.qemu.org) on your system, then run in the root folder:
 
-- 32 bit: `qemu-system-i386 image/boot.bin`
-- 64 bit: `qemu-system-x86_64 image/boot.bin`
+- 32 bit: 
+```
+qemu-system-i386 image/boot.bin
+```
+- 64 bit:
+```
+qemu-system-x86_64 image/boot.bin
+```
 
 *Note: No compilation required :)*
 
@@ -29,7 +35,10 @@ Then select the USB in the boot menu to boot raosxd.
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump [tx](https://github.com/Flederossi/tx) or any other hex editor on the *boot.bin* file to view the code.
 
-- tx: `tx image/boot.bin`
+- tx:
+```
+tx image/boot.bin
+```
 
 ## Credit: Rick Astley (singer of the song)
 - YouTube: https://www.youtube.com/@RickAstleyYT
