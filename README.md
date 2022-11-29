@@ -21,7 +21,9 @@ qemu-system-x86_64 image/boot.bin
 *Note: No compilation required :)*
 
 ## Boot it on a real machine
-To run it on real hardware, you can flash the bootloader on an USB by running:
+To run it on real hardware there are two methods.
+### Method 1
+Flash the binary on an USB by using dd:
 
 - Linux: 
 ```
@@ -31,6 +33,9 @@ sudo dd if=image/boot.bin of=/dev/[your usb] bs=512 status=progress
 **Important: Be sure you entered the right name of the usb you want the system to be on before executing this command. If you choose the wrong device your data could be damaged or wiped completely. I take no responsibility for loss of data, do it at your own risk. If you don't know what you are doing, I recommend using the qemu boot instead.**
 
 Then select the USB in the boot menu to boot raosxd.
+
+### Method 2
+Flash the latest iso image from the releases tab on an USB by using programs like [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/).
 
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump [tx](https://github.com/Flederossi/tx) or any other hex editor on the *boot.bin* file to view the code.
