@@ -26,6 +26,8 @@ Then select the USB in the boot menu to boot raosxd.
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump [tx](https://github.com/Flederossi/tx) or any other hex editor on the *boot.bin* file to view the code.
 
+- tx: `tx image/boot.bin`
+
 ## Credit: Rick Astley (singer of the song)
 - YouTube: https://www.youtube.com/@RickAstleyYT
 - Spotify: https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt
