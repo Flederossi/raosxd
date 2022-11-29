@@ -22,8 +22,8 @@ qemu-system-x86_64 image/boot.bin
 
 ## Boot it on a real machine
 To run it on real hardware there are two methods.
-### Method 1
-Flash the binary on an USB by using dd:
+### Method 1 (Terminal):
+Flash the binary to a USB stick by using dd:
 
 - Linux: 
 ```
@@ -34,8 +34,8 @@ sudo dd if=image/boot.bin of=/dev/[your usb] bs=512 status=progress
 
 Then select the USB in the boot menu to boot raosxd.
 
-### Method 2
-Flash the latest iso image from the releases tab on an USB by using programs like [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/).
+### Method 2 (GUI):
+Flash the latest ISO image from the releases tab to a USB stick by using programs like [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/).
 
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump [tx](https://github.com/Flederossi/tx) or any other hex editor on the *boot.bin* file to view the code.
