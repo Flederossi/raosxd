@@ -13,8 +13,5 @@ First install https://www.qemu.org on your system, then run in the root folder:
 
 *Note: No compilation required :)*
 
-## Why?
-Because it's fun.
-
-## How?
+## Source Code
 If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx to view the source code. ^^
