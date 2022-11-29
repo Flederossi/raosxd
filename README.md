@@ -35,7 +35,7 @@ To run it on real hardware there are two methods to flash raosxd:
 ### Method 2 (GUI):
 > Flash the latest ISO image from the releases tab to a USB stick by using programs like [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/).
 
-After you flashed the bootloader select the USB in the boot menu to boot raosxd.
+After you've flashed the bootloader select the USB in the boot menu to boot raosxd.
 
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump [tx](https://github.com/Flederossi/tx) or any other hex editor on the *boot.bin* file to view the code.
