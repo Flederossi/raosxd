@@ -14,6 +14,13 @@ First install [QEMU](https://www.qemu.org) on your system, then run in the root 
 
 *Note: No compilation required :)*
 
+## Boot it on a real machine
+To run it on real hardware, you can flash the bootloader on a USB using Linux:
+
+`sudo dd if=image/boot.bin of=/dev/[your usb] bs=4M status=progress`
+
+Then select the USB in the boot menu to boot raosxd.
+
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump [tx](https://github.com/Flederossi/tx) or any other hex editor on the *boot.bin* file to view the code.
 
