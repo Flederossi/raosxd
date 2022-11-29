@@ -7,3 +7,5 @@ A tiny bootloader that prints the first three lines of the "Never gonna give you
 First install https://www.qemu.org on your system, then run in the root folder:
 
 `qemu-system-x86_64 image/boot.bin`
+
+*Note: No compilation required :)*
