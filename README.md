@@ -12,4 +12,4 @@ First install https://www.qemu.org on your system, then run in the root folder:
 `qemu-system-x86_64 image/boot.bin`
 
 ## Source Code
-If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx or any other hex editorn on the *boot.bin* file to view the code.
+If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx or any other hex editor on the *boot.bin* file to view the code.
