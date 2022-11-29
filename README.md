@@ -9,14 +9,14 @@ It is written completely in the hex editor, using the full 512 bytes dedicated t
 ## Boot it using QEMU
 First install [QEMU](https://www.qemu.org) on your system, then run in the root folder:
 
-- 32 bit: 
-```
-qemu-system-i386 image/boot.bin
-```
-- 64 bit:
-```
-qemu-system-x86_64 image/boot.bin
-```
+> - 32 bit: 
+> ```
+> qemu-system-i386 image/boot.bin
+> ```
+> - 64 bit:
+> ```
+> qemu-system-x86_64 image/boot.bin
+> ```
 
 *Note: No compilation required :)*
 
