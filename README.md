@@ -14,4 +14,4 @@ First install https://www.qemu.org on your system, then run in the root folder:
 *Note: No compilation required :)*
 
 ## Source Code
-If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx to view the source code. ^^
+If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx or any other hex editor to view the code.
