@@ -16,4 +16,7 @@ First install https://www.qemu.org on your system, then run in the root folder:
 ## Source Code
 If you are interested in how this thing works, you can use my hex dump https://github.com/Flederossi/tx or any other hex editor on the *boot.bin* file to view the code.
 
-## Credit: Rick Astley #### singer of the song
+## Credit: Rick Astley (singer of the song)
+- YouTube: https://www.youtube.com/@RickAstleyYT
+- Spotify: https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt
+- Twitter: https://twitter.com/rickastley
