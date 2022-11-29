@@ -17,7 +17,7 @@ First install [QEMU](https://www.qemu.org) on your system, then run in the root 
 ## Boot it on a real machine
 To run it on real hardware, you can flash the bootloader on an USB by running:
 
-- Linux: `sudo dd if=image/boot.bin of=/dev/[your usb] bs=512 status=progress`
+- Linux: ```sudo dd if=image/boot.bin of=/dev/[your usb] bs=512 status=progress```
 
 **Important: Be sure you entered the right name of the usb you want the system to be on before executing this command. If you choose the wrong device your data could be damaged or wiped completely. I take no responsibility for loss of data, do it at your own risk. If you don't know what you are doing, I recommend using the qemu boot instead.**
 
